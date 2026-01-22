@@ -41,6 +41,7 @@ def req_to_dict(request_string):
 def get_path_from_req(req_string):
     path = req_string.split(" ")[1].split(" ")[0]
     return path
+# GET /world-news/first-russia-us-ukraine-trilateral-to-be-held-in-uae-on-friday-volodymyr-zelensky-10836133?pfrom=home-ndtv_topscroll_Imagetopscroll HTTP/2
 
 
 ####################################
